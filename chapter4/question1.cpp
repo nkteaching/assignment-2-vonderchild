@@ -39,7 +39,7 @@ int reverse_b(stack<int> &s, queue<int> &q) {
     return 1;
 }
 
-int reverse_c()
+
 int main() {
     stack<int> s, s1, s2;
     s.push(1);
@@ -70,7 +70,8 @@ int main() {
     cout << endl;
     printstack(s);
 
-    //c
+    
+    //(c)
     while (!s.empty())
         s.pop();
 
