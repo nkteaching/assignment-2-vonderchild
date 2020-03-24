@@ -32,15 +32,15 @@ whether it can be read the same way forward and backward. At each point, you can
 read only one character of the input string; do not use an array to first store this
 string and then analyze it (except, possibly, in a stack implementation). Consider
 using multiple stacks.
->[solution](https://github.com/nkteaching/assignment-2-vonderchild/blob/master/chapter4/programming-assignments/question1.cpp)
+    >[solution](https://github.com/nkteaching/assignment-2-vonderchild/blob/master/chapter4/programming-assignments/question1.cpp)
 
 - 3. Write a program that implements the algorithm delimiterMatching() from
 Section 4.1.
->[solution](https://github.com/nkteaching/assignment-2-vonderchild/blob/master/chapter4/programming-assignments/question3.cpp)
+    >[solution](https://github.com/nkteaching/assignment-2-vonderchild/blob/master/chapter4/programming-assignments/question3.cpp)
 
 - 4. Write a program that implements the algorithm addingLargeNumbers() from
 Section 4.1.
->[solution](https://github.com/nkteaching/assignment-2-vonderchild/blob/master/chapter4/programming-assignments/question4.cpp)
+    >[solution](https://github.com/nkteaching/assignment-2-vonderchild/blob/master/chapter4/programming-assignments/question4.cpp)
 
 ## [Chapter 5](https://github.com/nkteaching/assignment-2-vonderchild/tree/master/chapter5)
 
