@@ -11,15 +11,17 @@
     
 - 2. Put the elements on the stack S in ascending order using one additional stack and
 some additional nonarray variables.
-
+>[solution](https://github.com/nkteaching/assignment-2-vonderchild/blob/master/chapter4/question2.cpp)
+    
 - 3. Transfer elements from stack S1 to stack S2 so that the elements from S2 are in the
 same order as on S1
     - a. using one additional stack
     - b. using no additional stack but only some additional nonarray variables
-
+    >[solution](https://github.com/nkteaching/assignment-2-vonderchild/blob/master/chapter4/question3.cpp)
 - 4. Suggest an implementation of a stack to hold elements of two different types, such
-
+>[solution](https://github.com/nkteaching/assignment-2-vonderchild/blob/master/chapter4/question4.cpp)
 - 7. Define a stack in terms of a queue; that is, create a class
+>[solution](https://github.com/nkteaching/assignment-2-vonderchild/blob/master/chapter4/question7.cpp)
 
 ### Programming Assignments
 
