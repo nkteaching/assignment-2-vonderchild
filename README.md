@@ -59,3 +59,8 @@ multiply two numbers.
     cout << i * i * i << ’’;
     }
     ```
+ 
+- 16. Check recursively if the following objects are palindromes:
+    - a. a word
+    - b. a sentence (ignoring blanks, lower- and uppercase differences, and punctuation
+marks so that “Madam, I’m Adam” is accepted as a palindrome)
