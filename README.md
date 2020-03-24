@@ -6,7 +6,7 @@
 - 1. Reverse the order of elements on stack S
     - a. using two additional stacks
     - b. using one additional queue
-    - c. using one additional stack and some additional nonarray variables      [solution](https://github.com/nkteaching/assignment-2-vonderchild/blob/master/chapter4/question1.cpp)
+    - c. using one additional stack and some additional nonarray variables.      >[solution](https://github.com/nkteaching/assignment-2-vonderchild/blob/master/chapter4/question1.cpp)
     
 - 2. Put the elements on the stack S in ascending order using one additional stack and
 some additional nonarray variables.
