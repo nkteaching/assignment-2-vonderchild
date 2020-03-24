@@ -46,3 +46,16 @@ Section 4.1.
 6. Write a recursive method that for a positive integer returns a string with commas
 in the appropriate places, for example, putCommas(1234567) returns the string
 “1,234,567.”
+
+8. Write a recursive method that uses only addition, subtraction, and comparison to
+multiply two numbers.
+
+10. Write a recursive function to add the first n terms of the series 1 + 1/2 - 1/3 + 1/4 - 1/5...
+
+12. Give a recursive version of the following function:
+    ```
+    void cubes(int n) {
+    for (int i = 1; i <= n; i++)
+    cout << i * i * i << ’’;
+    }
+    ```
