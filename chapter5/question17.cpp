@@ -30,7 +30,7 @@ void remove(string &s, char c) {
     static int i = 0, j = 0;
 
     if (s[i]) { // if s[i] isnt empty
-        s[i] = s[i + j]; 
+        s[i] = s[i + j];  
 
         if (s[i] == c) {
             j++;
@@ -44,8 +44,8 @@ void remove(string &s, char c) {
 int main() {
     string str{"Hello world"};
     char c = 'l';
-    cout << check(str, c, 0, str.length()) << endl;
-    cout << count(str, c, 0, str.length(), 0) << endl;
-    remove(str, c);
+    cout << check(str, c, 0, str.length()) << endl; //checks for the character in the string
+    cout << count(str, c, 0, str.length(), 0) << endl; //counts the number of occurances of character
+    remove(str, c); //removes the character from the string
     cout << str;
 }
