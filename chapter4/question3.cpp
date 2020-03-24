@@ -3,12 +3,17 @@
 
 using namespace std;
 
+//part (b) is inside main()
+
+
 void printstack(stack<int> s) {
     while (!s.empty()) {
         cout << s.top() << " ";
         s.pop();
     }
 }
+
+//(a)
 
 int transfer_a(stack<int> &s, stack<int> s1) {
     while (!s.empty()) {
