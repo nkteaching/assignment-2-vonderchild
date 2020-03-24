@@ -1,5 +1,7 @@
 # Assignment 2
 
+## Chapter 4
+
 1. Reverse the order of elements on stack S
     - a. using two additional stacks
     - b. using one additional queue
@@ -12,4 +14,21 @@ some additional nonarray variables.
 same order as on S1
     - a. using one additional stack
     - b. using no additional stack but only some additional nonarray variables
-    - 4. Suggest an implementation of a stack to hold elements of two different types, such
+
+4. Suggest an implementation of a stack to hold elements of two different types, such
+
+7. Define a stack in terms of a queue; that is, create a class
+
+###### Programming Assignments
+
+1. Write a program that determines whether an input string is a palindrome; that is,
+whether it can be read the same way forward and backward. At each point, you can
+read only one character of the input string; do not use an array to first store this
+string and then analyze it (except, possibly, in a stack implementation). Consider
+using multiple stacks.
+
+3. Write a program that implements the algorithm delimiterMatching() from
+Section 4.1.
+
+4. Write a program that implements the algorithm addingLargeNumbers() from
+Section 4.1.
