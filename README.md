@@ -64,3 +64,10 @@ multiply two numbers.
     - a. a word
     - b. a sentence (ignoring blanks, lower- and uppercase differences, and punctuation
 marks so that “Madam, I’m Adam” is accepted as a palindrome)
+
+- 17. For a given character recursively, without using strchr() or strrchr(),
+    - a. Check if it is in a string.
+    - b. Count all of its occurrences in a string.
+    - c. Remove all of its occurrences from a string.
+
+- 29. Write the shortest program you can that uses recursion.
