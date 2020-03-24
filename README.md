@@ -1,5 +1,6 @@
 # Assignment 2
 
+
 ## Chapter 4
 
 1. Reverse the order of elements on stack S
@@ -32,3 +33,16 @@ Section 4.1.
 
 4. Write a program that implements the algorithm addingLargeNumbers() from
 Section 4.1.
+
+
+## Chapter 5
+
+2. Write a recursive function that calculates and returns the length of a linked list.
+
+5. Write a recursive method that for a positive integer n prints odd numbers
+    - a. between 1 and n
+    - b. between n and 1
+
+6. Write a recursive method that for a positive integer returns a string with commas
+in the appropriate places, for example, putCommas(1234567) returns the string
+“1,234,567.”
