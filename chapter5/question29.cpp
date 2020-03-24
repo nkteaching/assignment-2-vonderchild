@@ -1,14 +1,14 @@
 #include <iostream>
 
 using namespace std;
-
-int shortest(int n, int i) {
-    if (i != n) {
-        cout << i << " ";
-        return shortest(n, i + 1);
+//considering that the stack doesnt overflow and the function runs correctly this is the shortes recursive function i could think of that uses only one variable n
+int shortest(int n) { // the function iterates n-1 times
+    if (n > 0) {
+        return shortest(n-1);
+        cout << n << " "; //prints 1 to n
     }
 }
 
 int main() {
-    cout << shortest(3, 0);
+    cout << shortest(3);
 }
