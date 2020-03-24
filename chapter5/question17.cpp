@@ -2,6 +2,7 @@
 
 using namespace std;
 
+//(a)
 bool check(string str, char c, int i, int end) {
     if (i < end) {
         if (str[i] == c)
@@ -13,6 +14,7 @@ bool check(string str, char c, int i, int end) {
     }
 }
 
+//(b)
 int count(string str, char c, int i, int end, int countt) {
     if (i < end) {
         if (str[i] == c)
@@ -23,11 +25,12 @@ int count(string str, char c, int i, int end, int countt) {
     return countt;
 }
 
+//(c)
 void remove(string &s, char c) {
     static int i = 0, j = 0;
 
-    if (s[i]) {
-        s[i] = s[i + j];
+    if (s[i]) { // if s[i] isnt empty
+        s[i] = s[i + j]; 
 
         if (s[i] == c) {
             j++;
