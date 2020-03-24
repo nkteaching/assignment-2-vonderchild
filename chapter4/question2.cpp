@@ -2,26 +2,26 @@
 
 using namespace std;
 
-void sortStack(stack<int> &s) {
-    stack<int> tmpStack;
+void arrange(stack<int> &s) {
+    stack<int> temp;
 
     while (!s.empty()) {
         int tmp = s.top(); //pop the top element of stack into temp variable
         s.pop();
 
-        while (!tmpStack.empty() && tmpStack.top() > tmp) { // till the tempstack is empty and top is less than temp
-            s.push(tmpStack.top());
-            tmpStack.pop();
+        while (!temp.empty() && temp.top() > tmp) { // till the tempstack is empty and top is less than temp
+            s.push(temp.top());
+            temp.pop();
         }
 
         // push temp in tempory of stack
-        tmpStack.push(tmp);
+        temp.push(tmp);
     }
 
     //reversing the stack to arrange the values in ascending order
-    while (!tmpStack.empty()) {
-        s.push(tmpStack.top());
-        tmpStack.pop();
+    while (!temp.empty()) {
+        s.push(temp.top());
+        temp.pop();
     }
 }
 
@@ -34,7 +34,7 @@ int main() {
     s.push(2);
     s.push(42);
 
-    sortStack(s);
+    arrange(s);
 
     cout << "Stack in ascending order: ";
     while (!s.empty()) {
