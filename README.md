@@ -45,21 +45,26 @@ Section 4.1.
 ## [Chapter 5](https://github.com/nkteaching/assignment-2-vonderchild/tree/master/chapter5)
 
 - 2. Write a recursive function that calculates and returns the length of a linked list.
+    >[solution](https://github.com/nkteaching/assignment-2-vonderchild/blob/master/chapter5/question2.cpp)
 
 - 5. Write a recursive method that for a positive integer n prints odd numbers
     - a. between 1 and n
     - b. between n and 1
-
+    >[solution](https://github.com/nkteaching/assignment-2-vonderchild/blob/master/chapter5/question5.cpp)
+    
 - 6. Write a recursive method that for a positive integer returns a string with commas
 in the appropriate places, for example, putCommas(1234567) returns the string
 “1,234,567.”
+    >[solution](https://github.com/nkteaching/assignment-2-vonderchild/blob/master/chapter5/question6.cpp)
 
 - 8. Write a recursive method that uses only addition, subtraction, and comparison to
 multiply two numbers.
+    >[solution](https://github.com/nkteaching/assignment-2-vonderchild/blob/master/chapter5/question8.cpp)
 
 - 10. Write a recursive function to add the first n terms of the series 
 1 + 1/2 - 1/3 + 1/4 - 1/5...
-
+    >[solution](https://github.com/nkteaching/assignment-2-vonderchild/blob/master/chapter5/question10.cpp)
+    
 - 12. Give a recursive version of the following function:
     ```
     void cubes(int n) {
@@ -67,15 +72,19 @@ multiply two numbers.
     cout << i * i * i << ’’;
     }
     ```
- 
+    >[solution](https://github.com/nkteaching/assignment-2-vonderchild/blob/master/chapter5/question12.cpp)
+    
 - 16. Check recursively if the following objects are palindromes:
     - a. a word
     - b. a sentence (ignoring blanks, lower- and uppercase differences, and punctuation
 marks so that “Madam, I’m Adam” is accepted as a palindrome)
-
+    >[solution](https://github.com/nkteaching/assignment-2-vonderchild/blob/master/chapter5/question16.cpp)
+    
 - 17. For a given character recursively, without using strchr() or strrchr(),
     - a. Check if it is in a string.
     - b. Count all of its occurrences in a string.
     - c. Remove all of its occurrences from a string.
+    >[solution](https://github.com/nkteaching/assignment-2-vonderchild/blob/master/chapter5/question17.cpp)
 
 - 29. Write the shortest program you can that uses recursion.
+    >[solution](https://github.com/nkteaching/assignment-2-vonderchild/blob/master/chapter5/question29.cpp)
