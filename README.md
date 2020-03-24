@@ -20,7 +20,7 @@ same order as on S1
 
 - 7. Define a stack in terms of a queue; that is, create a class
 
-###### Programming Assignments
+### Programming Assignments
 
 - 1. Write a program that determines whether an input string is a palindrome; that is,
 whether it can be read the same way forward and backward. At each point, you can
