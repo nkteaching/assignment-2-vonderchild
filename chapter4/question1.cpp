@@ -11,6 +11,11 @@ void printstack(stack<int> s) {
     }
 }
 
+
+//part c is inside main()
+
+
+//(a)
 int reverse_a(stack<int> &s, stack<int> &s1, stack<int> &s2) {
     while (!s.empty()) {
         s1.push(s.top());
@@ -27,6 +32,7 @@ int reverse_a(stack<int> &s, stack<int> &s1, stack<int> &s2) {
     return 1;
 }
 
+//(b)
 int reverse_b(stack<int> &s, queue<int> &q) {
     while (!s.empty()) {
         q.push(s.top());
