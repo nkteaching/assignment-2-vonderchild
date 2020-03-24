@@ -35,7 +35,7 @@ Section 4.1.
 Section 4.1.
 
 
-## Chapter 5
+## [Chapter 5](https://github.com/nkteaching/assignment-2-vonderchild/tree/master/chapter5)
 
 - 2. Write a recursive function that calculates and returns the length of a linked list.
 
